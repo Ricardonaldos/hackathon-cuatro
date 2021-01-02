@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuerpouno{
+    width: 1920px;
+    height: 1000px;
+    background-color: bisque;
+    margin: auto;
+    background-image: url("../Images/home.png")
+}
+
+header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 90px;
+    align-items: center;
+}
+
+
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(6,auto) ;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+
+#order{
+    outline: 1px solid orangered;
+    outline-offset: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content{
+    display: grid;
+    grid-template-columns: 40%;
+    margin-left: 19em;
+    margin-top: 16em;
+    margin-bottom: 13em;
+    
+  }
+h2{
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+
+}
+  .boton2{
+    width: 120px;
+    height: 40px;
+    background-color:red;
+    text-align: center;
+    padding: 10px;
+    color: white;
+     text-decoration: none;
+  
+   
+  }
+
+
+
+  .cuerpodos{
+    width: 1920px;
+    height: 1000px;
+    background-color: bisque;
+    margin: auto;
+    background-color: white;
+
+    
+}
+
+
+.logosalineados{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+   
+  
+}
+h3{
+    font-size: 20px;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+    color: red;
+
+}
+
+.caja1 {
+    background-color: white;
+    width: 1080px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin: 10px auto;
+    color: black;
+    padding-top: 250px;
+       
+}
+
+.imagen{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+
+.boton3 {
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    color: white;
+    
+    
+}
+
+
+.texto {
+    
+  margin:  100px;
+  padding: 20px;
+}
+
+.iconosinfo{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+   
+   grid-gap: 5em;
+    
+   
+  }
+
+
+
+  .cuerpotres{
+    width: 980px;
+    height: 850px;
+   
+    margin: auto;
+  
+
+    padding-top: 300px;
+
+    
+}
+
+
+
+h4 {
+    font-size: 20px;
+    
+ 
+    margin: 0;
+    text-align: left;
+    color: red;
+
+}
+
+
+
+.cuerpocuatro{
+    width: 1980px;
+    height: 1000px;
+   
+    margin: auto;
+
+    padding-top: 50px;
+    background-color: gainsboro;
+   
+
+
+    
+}
+
+.iconosinfo2{
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+   
+   grid-gap: 5em;
+
+   background-color: gainsboro;
+ 
+    justify-content: center;
+    padding-top: 50px;
+   
+  }
+
+.iconosinfo2 div{
+    background-color: white;
+    padding: 20px;
+}
+  h6 {
+    font-size: 20px;
+    
+ 
+    margin: 0;
+    text-align: center;
+    color: red;
+    padding-top: 80px;
+
+}
