@@ -1,0 +1,13 @@
+¿Para qué sirve CSS?
+Para lograr un diseño personalizado completo al html.
+
+
+¿Cuáles son los contras de no usar CSS?
+
+No tener una buena experiencia de usuario, no poder definir
+tipografias, colores, tamaños, responsive.
+
+
+¿Cuáles son los beneficios?
+Tener una estructura organizada a traves de css, nos permitira
+un manejo completo de colores, fuentes, colores, etc.
